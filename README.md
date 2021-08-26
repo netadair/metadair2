@@ -5,7 +5,7 @@ Lua firmware and code for MetAdair2 Kamstrup/D0 probes as shown on https://wiki.
 
 * Flash firmware, eg using with NodeMCU-PyFlasher
 * Reboot, let Lua initialize the flash
-* Change the `config.lua` to contain your SSID and password. If access the meter via D0 only, you could change the default RS232 parameters to D0 like
+* Change the `config.lua` to contain your SSID and password. If access to the meter is planned primarily with D0 only, you could change the default RS232 parameters to D0 like to not always change the parameters inline with each request.
   ```
   UART_BAUD = 300
   UART_BITS = 7
