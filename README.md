@@ -40,6 +40,7 @@ Lua firmware and code for MetAdair2 Kamstrup/D0 probes as shown on https://wiki.
 * Upload files using ESPlorer's pload feature. Please do not copy&paste on the console or the like. This will barf on large files.
 This list can be used in the file selector box of ESPlorer
   > "break.lua" "config.lua" "init.lua" "ip_service_setup.lua" "list_ap.lua" "metadair2.lua" "telnet_banner.lua" "telnet_proto.lua"
+After the upload, please reboot or do garbage collection to free memory for compiling the large core source file.
 * Compile the code. This leaves lot of heap space eaten up, so done in two steps, the snipplet shown above breaks when run in one row. So first compile the core file, then reboot, feed the dog, the compile the rest and reset the wifi.
 
 ## Usage
