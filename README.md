@@ -11,10 +11,6 @@ Lua firmware and code for MetAdair2 Kamstrup/D0 probes as shown on https://wiki.
     ```
     =node.restart()
     ```
-  * `metadair2`
-    ```
-    dofile("metadair2.lua")
-    ```
   * `feed dog` 
     ```
     f()
