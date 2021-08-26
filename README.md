@@ -69,5 +69,5 @@ This can be a single liner like
 ```
 (/bin/echo -n -e '\xff\xef'; sleep 1; /bin/echo -n -e '/?!\r\n'; sleep ${TIMEOUT:-10} ) | /usr/local/bin/socat -t${TIMEOUT:-2} stdio tcp:${IP}:${PORT} 2>/dev/null
 ```
-for D0 output, with some IP retrieved by mDNS before, or using the plain DNS name `NODE-<your5digitespserialhere>` the device used to retrieve it's adress via DHCP.
+for D0 output, with some IP retrieved by mDNS before, or using the plain DNS name `NODE-<yourespserialhere>` the device used to retrieve it's adress via DHCP.
 
