@@ -52,4 +52,16 @@ After the firmware is up, it retries a DHCP address and announces itself via MDN
 You can access the Lua console on tcp port 23 (alas, no error messages though, does not work with this firmware)
 or the serial port on tcp port 9600. 
 
+Access is straight-through with telnet protocol (please adhere when transfering binary data!), and you can use either some telnet commands to set RS232 parameters or use RFC2217.
+Short cuts are:
+
+Telnet command | means for us
+-------------- | ------------
+SUSP=237 | defaults for uart
+INTP=244 | 115200 8n1 for uart
+EOR=239 | default IEC 61107/IEC 62056-21/D0 mode A uart parameters
+EOF=236 | default Kamstrup uart parameters
+GOH=249 | default SML uart parameters
+ABORTPROCESS=238 | reboot
+COMPORTOPTION=0x2C | RFC2217
 
