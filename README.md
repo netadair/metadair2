@@ -5,7 +5,7 @@ Lua firmware and code for MetAdair2 Kamstrup/D0 probes as shown on https://wiki.
 
 * Flash firmware, eg using with NodeMCU-PyFlasher
 * Reboot, let Lua initialize the flash
-* Change the <config.lua> to contain your SSID and password.
+* Change the `config.lua` to contain your SSID and password.
 * Customize ESPlorer, adding some Snipplets
   * `Reset` 
     ```
